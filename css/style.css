@@ -20,5 +20,10 @@ p {
 .right-image {
   position: relative;
   float: right;
-  right: 500px;
+  right: 300px;
+}
+
+h2 {
+  color: darkgreen;
+  font-style: oblique;
 }
