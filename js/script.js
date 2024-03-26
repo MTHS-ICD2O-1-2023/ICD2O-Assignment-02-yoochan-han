@@ -7,6 +7,6 @@ function CaculateToClick() {
   const base = parseInt(document.getElementById("get_base").value)
   const height = parseInt(document.getElementById("get_height").value)
   // caculate
-  const result = 1/3(base*height)
-  document.getElementById("ResultOfPyramid").innerHTML = "volume of pyramid that has " + base + "cm² base and " + height + "cm height is " + result +  "cm³."
+  const result = 1/3(base * height)
+  document.getElementById("Pyramid").innerHTML = "volume of pyramid that has " + base + "cm² base and " + height + "cm height is " + result +  "cm³."
 }
