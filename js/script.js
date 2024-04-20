@@ -9,5 +9,5 @@ function Caculate() {
   // caculate
   const answer = (base * height) * (1/3)
   //display 
-  document.getElementById("Answer").innerHTML = "volume of pyramid that has " + base + "cm² base and " + height + "cm height is " + answer +  "cm³."
+  document.getElementById("Answer").innerHTML = "volume of pyramid that has " + base + " cm² base and " + height + " cm height is " + answer +  "cm³."
 }
